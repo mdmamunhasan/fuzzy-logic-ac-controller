@@ -54,6 +54,6 @@ speed.input['temperature'] = int(x)
 speed.input['humidity'] = int(y)
 
 speed.compute()
-print(speed.output['fan_speed'] + "RPM")
+print(f"{speed.output['fan_speed']} RPM")
 fan_speed.view(sim=speed)
 input('Press any key to exit')
