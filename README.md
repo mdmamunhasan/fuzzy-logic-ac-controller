@@ -1,17 +1,24 @@
 # Fuzzy Logic AC Controller
 
-Air-conditioner fan speed controller using fuzzy logic. 
-Controls fan speed, compressor motor speed smartly according to room temperature and expected temperature, humidity, oxygen level. 
+The proposed method controls air-conditioner fan and compressor motor speed smartly according to room temperature and
+expected temperature, humidity and oxygen level.
 
-# Getting Started 
+# Getting Started
 
-Install python libraries
+Please clone the repo at first
+
+```
+git clone https://github.com/mdmamunhasan/fuzzy-logic-ac-controller.git
+cd fuzzy-logic-ac-controller
+```
+
+Please install python libraries
 
 ```
 pip install -r requirements.txt
 ```
 
-Start Execution
+Please start execution
 
 ```
 python main.py
@@ -30,3 +37,7 @@ Press Enter to View Compressor Speed
 Compressor Speed 1166.6651045228907 RPM
 Press any key to exit!
 ```
+
+# Reference:
+
+- https://ieeexplore.ieee.org/document/7784388
