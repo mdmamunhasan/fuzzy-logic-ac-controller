@@ -38,6 +38,9 @@ Compressor Speed 1166.6651045228907 RPM
 Press any key to exit!
 ```
 
+![img.png](images/fanspeed.png)
+![img.png](images/compressor.png)
+
 # Reference:
 
 - https://ieeexplore.ieee.org/document/7784388
